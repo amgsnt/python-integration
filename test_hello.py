@@ -1,6 +1,6 @@
 import sys
 print '\n'.join(sys.path)
-
+import app
 from app.hello import app
 with app.test_client() as c:
     response = c.get('/')
