@@ -3,7 +3,7 @@ from glob import glob
 
 from setuptools import find_packages
 
-setup(name='Hello',
+setup(name='chat',
       version='1.0',
       description='Python Distribution Utilities',
       author='Gilmar P Santos',
