@@ -1,6 +1,5 @@
 language: python
 script:
-    - pwd
-    - pytest tests/
+    - pytest
 install: 
     - pip install -r requirements.txt
