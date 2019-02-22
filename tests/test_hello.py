@@ -1,4 +1,8 @@
-from context import app
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from chat.hello import app
 
 with app.test_client() as c:
     response = c.get('/')
