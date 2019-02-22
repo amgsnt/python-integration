@@ -1,4 +1,4 @@
 Flask
-pytest
-pytest-cov>=3.6
+pytest>=3.6
+pytest-cov
 codecov
