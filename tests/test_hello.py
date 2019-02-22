@@ -1,6 +1,3 @@
-import sys
-sys.path
-
 from chat.hello import app
 
 with app.test_client() as c:
