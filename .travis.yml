@@ -1,5 +1,5 @@
 language: python
 script:
-    - pytest test_hello.py
+    - python test_hello.py
 install: 
     - pip install -r requirements.txt
