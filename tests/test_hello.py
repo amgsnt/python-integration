@@ -1,4 +1,4 @@
-import .context.chat.app
+from .context.chat import app
 
 with app.test_client() as c:
     response = c.get('/')
