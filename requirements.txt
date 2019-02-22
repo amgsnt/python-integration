@@ -1,4 +1,4 @@
-Flask
-pytest>=3.6
-pytest-cov
-codecov
+Flask==1.0.2
+pytest==4.3.0
+pytest-cov==2.6.1
+codecov==2.0.15
