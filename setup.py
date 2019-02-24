@@ -3,9 +3,9 @@ from glob import glob
 
 from setuptools import find_packages
 
-setup(name='chat',
+setup(name='ci-integration',
       version='1.0',
-      description='Python Distribution Utilities',
+      description='Python Test',
       author='Gilmar P Santos',
       packages=find_packages('.'),
       package_dir={'': '.'},

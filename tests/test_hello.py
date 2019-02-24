@@ -1,7 +1,7 @@
 import pytest
 import context
 
-from chat.hello import app
+from app.hello import app
 
 def test_empty():
     with app.test_client() as c:
