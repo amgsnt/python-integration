@@ -8,7 +8,7 @@ python:
 install: 
  - pip install -r requirements.txt
 
-script: pytest --cov=chat
+script: pytest --cov=app
 
 after_success:
   - codecov
