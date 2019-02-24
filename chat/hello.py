@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<b>Bia linda da minha vida!</b>"
+    return "<b>Hello!</b>"
 
 if __name__ == "__main__":  # pragma: no cover
     port = int(os.environ.get("PORT", 5000))
